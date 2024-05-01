@@ -1,0 +1,44 @@
+.weather-card {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    overflow: hidden;
+}
+
+.weather-main {
+    padding: 20px;
+    text-align: center;
+    background: #E0E0E0;
+    /* Some light background */
+}
+
+.weather-icon {
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.weather-description {
+    text-transform: capitalize;
+}
+
+.weather-details {
+    padding: 20px;
+    background: #F8F8F8;
+    /* Slightly different background for contrast */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.weather-detail-item {
+    text-align: center;
+}
