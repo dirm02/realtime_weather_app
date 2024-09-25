@@ -1,4 +1,4 @@
-# Weather Real-time App with React: An application for Real-time Weather Visulization made by React
+# Weather Real-time App with React: An application for Real-time Weather Visualization  made by React
 
 ## Table of Contents
 * [Introduction](#introduction)
